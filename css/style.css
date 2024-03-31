@@ -1,0 +1,35 @@
+header {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+	color: #fff;
+}
+
+.main-section {
+	padding: 60px 0;
+}
+
+.main-section h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+
+.main-section p {
+	font-size: 1.1rem;
+}
+
+footer {
+	background-color: #6c757d;
+	color: #fff;
+	padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+	.main-section h1 {
+		font-size: 2rem;
+	}
+}
