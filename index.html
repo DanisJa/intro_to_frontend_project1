@@ -1,82 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Web Application Title</title>
-    <!-- Bootstrap CSS -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Business Website</title>
+		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="#">
+					<img
+						src="./assets/images/address-card-svgrepo-com.svg"
+						class="h-auto"
+						width="100"
+						alt="Business Logo"
+					/>
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Your Logo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#home"
+								>Home <span class="sr-only">(current)</span></a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
+		<main>
+			<section id="home" class="main-section">
+				<div class="container">
+					<h1>Welcome to The Business</h1>
+					<div class="col-md-6">
+						<img
+							src="./assets/images/welcome-image.jpg"
+							class="img-fluid"
+							alt="About Image"
+						/>
+					</div>
+				</div>
+			</section>
 
-<main>
-    <section id="home" class="main-section">
-        <div class="container">
-            <h1>Welcome to Your Website</h1>
-            <p>Welcome to the business</p>
-        </div>
-    </section>
+			<section id="about" class="main-section">
+				<div class="container">
+					<h2>About Us</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+						facilisi. Aenean vehicula mauris non erat ultrices, eu consectetur
+						lorem aliquam. Duis auctor massa at semper tristique. Cras eu velit
+						ac ligula elementum consectetur vel et arcu.
+					</p>
+					<div class="row">
+						<div class="col-md-6">
+							<img
+								src="./assets/images/about-image.jpg"
+								class="img-fluid"
+								alt="About Image"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
 
-    <section id="about" class="main-section">
-        <div class="container">
-            <h2>About Us</h2>
-             <ul>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quas deserunt consequatur, ab accusantium excepturi sint beatae officiis inventore debitis unde atque ipsam voluptates repellendus libero maiores autem provident rerum, eum natus at. Adipisci delectus veritatis, quidem ratione sapiente quod a temporibus sint eos labore accusamus tenetur aperiam aspernatur suscipit nesciunt ducimus. Natus voluptatem officia vero, debitis nihil quaerat vitae facere delectus exercitationem, explicabo asperiores eius, veritatis dolores voluptas a ipsa doloribus sunt. Ex distinctio praesentium, ullam blanditiis et sapiente magni, id, atque cum aliquam suscipit reiciendis pariatur harum molestias officia sequi aspernatur repellat iste quis. Eos labore nulla repudiandae.
-            </ul>
-        </div>
-    </section>
+			<section id="services" class="main-section">
+				<div class="container">
+					<h2>Our Services</h2>
+					<p>Here are some of the services we offer:</p>
+					<ul>
+						<li>
+							Service 1: Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Eum harum consectetur id ipsum dolor obcaecati?
+						</li>
+						<li>
+							Service 2: Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Pariatur consequatur ab beatae?
+						</li>
+						<li>
+							Service 3: Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Repudiandae distinctio accusamus iusto ad a soluta non
+							laudantium vel. Accusantium dolorum earum illum neque iste nobis
+							odit quaerat deserunt necessitatibus! Dolor vero pariatur error
+							maxime optio!
+						</li>
+					</ul>
+				</div>
+			</section>
 
-    <section id="services" class="main-section">
-        <div class="container">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sint.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sint.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sint.</li>
-            </ul>
-        </div>
-    </section>
-</main>
+			<section id="contact" class="main-section">
+				<div class="container">
+					<h2>Contact Us</h2>
+					<button type="button" data-toggle="modal" data-target="#contactModal">
+						Contact Us
+					</button>
+				</div>
+			</section>
 
-<footer>
-    <div class="container">
-        <p>&copy; 2024 Your Website. All rights reserved.</p>
-    </div>
-</footer>
+			<!-- Contact Modal -->
+			<div
+				class="modal fade"
+				id="contactModal"
+				tabindex="-1"
+				role="dialog"
+				aria-labelledby="contactModalLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="contactModalLabel">Contact Form</h5>
+							<button
+								type="button"
+								class="close"
+								data-dismiss="modal"
+								aria-label="Close"
+							>
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<form>
+								<div class="form-group">
+									<label for="name">Your Name</label>
+									<input
+										type="text"
+										class="form-control"
+										id="name"
+										placeholder="Enter your name"
+									/>
+								</div>
+								<div class="form-group">
+									<label for="email">Your Email</label>
+									<input
+										type="email"
+										class="form-control"
+										id="email"
+										placeholder="Enter your email"
+									/>
+								</div>
+								<div class="form-group">
+									<label for="message">Message</label>
+									<textarea
+										class="form-control"
+										id="message"
+										rows="5"
+										placeholder="Enter your message"
+									></textarea>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button
+								type="button"
+								class="btn btn-secondary"
+								data-dismiss="modal"
+							>
+								Close
+							</button>
+							<button type="button" class="btn btn-primary">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 
-<!-- Bootstrap JS and jQuery -->
-<script src="assets/bootstrap/js/jquery.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<!-- Custom JS -->
-<script src="js/script.js"></script>
-</body>
+		<footer>
+			<div class="container">
+				<p>&copy; 2024 Your Website. All rights reserved.</p>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>

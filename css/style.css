@@ -33,3 +33,14 @@ footer {
 		font-size: 2rem;
 	}
 }
+
+button {
+	background-color: #00c3ff;
+	transition: transform 0.2s;
+	transform: scale(1);
+}
+
+button:hover {
+	color: white;
+	transform: scale(1.1); /* Applying scaling transform on hover */
+}
